@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Longlong\'s Running Page',
-    siteUrl: 'https://yihong.run',
+    siteUrl: 'https://longlong418.github.io/Longlong-s-Running_page/',
     logo: 'http://www.xlonglong.cn/wp-content/uploads/2022/05/微信图片_20220108212543.jpg',
     description: 'Personal site and blog',
     navLinks: [
