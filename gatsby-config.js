@@ -11,8 +11,8 @@ module.exports = {
         url: 'https://www.xlonglong.cn/',
       },
       {
-        name: 'About',
-        url: 'https://www.xlonglong.cn/index.php/%e6%88%91%e6%98%af%e8%b0%81%ef%bc%9f/',
+        name: 'Github',
+        url: 'https://github.com/Longlong418',
       },
     ],
   },
