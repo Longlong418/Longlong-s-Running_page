@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'Longlong\'s Running Page',
     siteUrl: 'https://longlong418.github.io/Longlong-s-Running_page/',
-    logo: 'http://www.xlonglong.cn/wp-content/uploads/2022/05/微信图片_20220108212543.jpg',
+    logo: 'https://www.xlonglong.cn/wp-content/uploads/2022/05/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220108212543.jpg',
     description: 'Personal site and blog',
     navLinks: [
       {
