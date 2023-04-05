@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: process.env.PATH_PREFIX || '/',
+  pathPrefix: process.env.PATH_PREFIX || 'run.xlonglong.cn',
   siteMetadata: {
     siteTitle: 'Longlong\'s Running Page',
     siteUrl: 'https://longlong418.github.io/Longlong-s-Running_page/',
