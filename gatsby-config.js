@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "run.xlonglong.cn",
+  pathPrefix: "/",
   siteMetadata: {
     siteTitle: 'Longlong\'s Running Page',
     siteUrl: 'https://longlong418.github.io/Longlong-s-Running_page/',
