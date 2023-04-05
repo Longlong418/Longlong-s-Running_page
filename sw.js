@@ -27,24 +27,24 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-e44fb7cf203a68176da9.js"
+    "url": "webpack-runtime-dc755d72fc46717e065a.js"
   },
   {
     "url": "framework-8092182b2c8a45123cff.js"
   },
   {
-    "url": "app-6861b3627b93df412640.js"
+    "url": "app-fbee22463360040698bb.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "49d92de4201cd44f81738f1e3d29f00d"
+    "revision": "392d10f301ce408090f567c4ed67fcdf"
   },
   {
     "url": "polyfill-14854c9902868fed1421.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "189175de5e87ca7fc704d95e7eabd940"
+    "revision": "80c665448251ad7652fa479c6b517b6e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -149,12 +149,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/Longlong-s-Running_page`), ``)
+  pathname = pathname.replace(new RegExp(`^/run.xlonglong.cn`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/Longlong-s-Running_page/app-6861b3627b93df412640.js`))) {
+  if (!resources || !(await caches.match(`/run.xlonglong.cn/app-fbee22463360040698bb.js`))) {
     return await fetch(event.request)
   }
 
@@ -167,7 +167,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/Longlong-s-Running_page/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/run.xlonglong.cn/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
