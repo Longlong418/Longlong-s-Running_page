@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="gpx.py -- https://github.com/tkrajina/gpxpy">
+  <trk>
+    <name>gpx from keep</name>
+    <trkseg>
+      <trkpt lat="39.08950352461512" lon="121.9762478191155">
+        <ele>21.10967445373535</ele>
+        <time>2023-06-01T02:29:45.200000Z</time>
+      </trkpt>
+      <trkpt lat="39.08949858637915" lon="121.97618148420584">
+        <ele>21.138092041015625</ele>
+        <time>2023-06-01T02:29:52.200000Z</time>
+      </trkpt>
+      <trkpt lat="39.08947267456231" lon="121.97603840210664">
+        <ele>21.086181640625</ele>
+        <time>2023-06-01T02:29:59.200000Z</time>
+      </trkpt>
+      <trkpt lat="39.08950491540031" lon="121.97641642989569">
+        <ele>20.849985122680664</ele>
+        <time>2023-06-01T02:30:25.300000Z</time>
+      </trkpt>
+      <trkpt lat="39.089549823839384" lon="121.9766844838609">
+        <ele>21.047473907470703</ele>
+        <time>2023-06-01T02:30:45.400000Z</time>
+      </trkpt>
+      <trkpt lat="39.08956315868706" lon="121.97667448598273">
+        <ele>17.790714263916016</ele>
+        <time>2023-06-01T02:30:59.500000Z</time>
+      </trkpt>
+      <trkpt lat="39.08956151802717" lon="121.976634129843">
+        <ele>15.302326202392578</ele>
+        <time>2023-06-01T02:31:10.800000Z</time>
+      </trkpt>
+      <trkpt lat="39.08956608586677" lon="121.97663483746385">
+        <ele>19.160459518432617</ele>
+        <time>2023-06-01T02:31:17Z</time>
+      </trkpt>
+      <trkpt lat="39.089521284332385" lon="121.9765497548064">
+        <ele>20.652624130249023</ele>
+        <time>2023-06-01T02:31:30.400000Z</time>
+      </trkpt>
+      <trkpt lat="39.08950649662328" lon="121.97653631542637">
+        <ele>20.662248611450195</ele>
+        <time>2023-06-01T02:31:36.500000Z</time>
+      </trkpt>
+      <trkpt lat="39.08950113527338" lon="121.97635664459794">
+        <ele>20.41524887084961</ele>
+        <time>2023-06-01T02:31:44.900000Z</time>
+      </trkpt>
+      <trkpt lat="39.0894848316625" lon="121.97600030319154">
+        <ele>20.97624969482422</ele>
+        <time>2023-06-01T02:31:58.200000Z</time>
+      </trkpt>
+      <trkpt lat="39.08951459703513" lon="121.97570995956644">
+        <ele>21.54489517211914</ele>
+        <time>2023-06-01T02:32:27.900000Z</time>
+      </trkpt>
+      <trkpt lat="39.08951936684837" lon="121.97581312026536">
+        <ele>21.62028694152832</ele>
+        <time>2023-06-01T02:32:44.100000Z</time>
+      </trkpt>
+      <trkpt lat="39.089090231092705" lon="121.97631768152841">
+        <ele>21.06318473815918</ele>
+        <time>2023-06-01T02:32:58.500000Z</time>
+      </trkpt>
+      <trkpt lat="39.08949906190119" lon="121.97638485960748">
+        <ele>23.848722457885742</ele>
+        <time>2023-06-01T02:33:23.900000Z</time>
+      </trkpt>
+      <trkpt lat="39.08951084607903" lon="121.97650526305955">
+        <ele>21.748519897460938</ele>
+        <time>2023-06-01T02:33:30.500000Z</time>
+      </trkpt>
+      <trkpt lat="39.08956959680583" lon="121.97640844487908">
+        <ele>20.925168991088867</ele>
+        <time>2023-06-01T02:33:56.500000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
